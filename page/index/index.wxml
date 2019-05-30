@@ -1,0 +1,9 @@
+<view class="myMap">
+  <map id="map" class='map' longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location
+   markers="{{markers}}">
+   <cover-view>
+   <cover-image class="cover-image-now" src="/resources/now.png"/></cover-view>
+   <cover-view class='cover-image'>
+   <cover-image class="cover-image-location" bindtap='controltap' src="/resources/location.png"/></cover-view>
+   </map>
+</view>
