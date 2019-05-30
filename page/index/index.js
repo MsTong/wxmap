@@ -5,6 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
+    top: (app.globalData.globalHeight - 40) / 2 - 33 + 'px',
+    left: app.globalData.globalWidth / 2 - 12 + 'px',
     longitude:'',
     latitude:"",
     show:true,
@@ -42,7 +44,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    // this.setData({
+    //   top: (app.globalData.globalHeight - 40) / 2 - 42 +'px';
+    // })
   },
 
   /**
@@ -74,6 +78,11 @@ getLocation() {
 },
   controltap(e) {
     this.mapCtx.moveToLocation();
+  },
+  toPlay() {
+    wx.navigateTo({
+      url: '/page/my/index',
+    })
   },
   /**
    * 生命周期函数--监听页面隐藏

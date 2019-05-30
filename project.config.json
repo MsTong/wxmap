@@ -8,12 +8,18 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.0",
 	"appid": "wx26129af4435d4981",
 	"projectname": "wxmap",
+	"scripts": {
+		"beforeCompile": "sass-to-wxss",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
 	"condition": {
 		"search": {
 			"current": -1,
