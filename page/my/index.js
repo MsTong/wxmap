@@ -47,5 +47,14 @@ Page({
   },
   controltap(e) {
     console.log(e.controlId)
+  },
+  tap1(e) {
+    console.log(e)
+  },
+  tap2(e) {
+    console.log(e)
+  },
+  tap3(e) {
+    console.log(e)
   }
 })

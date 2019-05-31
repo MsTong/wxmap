@@ -3,3 +3,21 @@
   width: 375px;
   height: 667px;
 }
+.van-button--primary {
+  color: #000 !important;
+}
+.tap1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.tap2 {
+  width: 50px;
+  height: 50px;
+  background: green;
+}
+.tap3 {
+  width: 30px;
+  height: 30px;
+  background: gray;
+}

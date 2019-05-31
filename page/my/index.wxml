@@ -1,3 +1,7 @@
-<view class="myMap">
- <van-button type="primary">按钮</van-button>
+<van-button type="primary" van-class="myClass">按钮</van-button>
+<view class='tap1' bindtap='tap1'>
+tap1
+  <view class='tap2' catchttap='tap2'>tap2
+    <view class='tap3' bindap='tap3'>tap3</view>
+  </view>
 </view>
